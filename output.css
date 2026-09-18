@@ -323,9 +323,6 @@
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
   }
-  .text-\[\#EEEEEE\] {
-    color: #EEEEEE;
-  }
   .text-black {
     color: var(--color-black);
   }
@@ -342,6 +339,9 @@
     .hover\:bg-amber-500:hover {
       background-color: var(--color-amber-500);
     }
+  }
+  .active\:bg-amber-500:active {
+    background-color: var(--color-amber-500);
   }
   @media (width >= 48rem) {
     .md\:top-4 {
